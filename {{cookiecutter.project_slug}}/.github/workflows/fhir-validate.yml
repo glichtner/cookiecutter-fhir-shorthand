@@ -56,8 +56,5 @@ jobs:
         working-directory: ./packages
         run: ./packages/untar_packages.sh
 
-      - name: Copy validator
-        run: cp ./packages/validator/validator_cli.jar .
-
       - name: Execute validator
-        run: python validate_profile.py --all
+        run: fsh-validator --all

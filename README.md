@@ -21,4 +21,3 @@ conda create --name sushi
 conda install nodejs
 npm install -g fsh-sushi
 ```
-
