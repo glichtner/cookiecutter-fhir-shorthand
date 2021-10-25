@@ -1,5 +1,5 @@
-{{cookiecutter.project_slug} Implementation Guide
-=================================================
+{{cookiecutter.project_slug}} Implementation Guide
+==================================================
 
 
 
