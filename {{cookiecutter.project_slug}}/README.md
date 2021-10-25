@@ -1,0 +1,3 @@
+# {{cookiecutter.project_slug} Implementation Guide
+
+This Implementation Guide is currently under construction ...

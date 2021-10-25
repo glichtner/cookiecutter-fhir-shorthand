@@ -1,0 +1,22 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: "{{cookiecutter.fhir_id}}"
+canonical: "{{cookiecutter.canonical_url}}"
+name: "{{cookiecutter.project_slug}}"
+status: draft
+version: "{{cookiecutter.version}}"
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+publisher:
+  name: "{{cookiecutter.publisher_name}}"
+  url: "{{cookiecutter.publisher_url}}"
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
