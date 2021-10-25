@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: BIH-CEI/fhir-packages
-          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-key: ${{ "{{" }} secrets.SSH_PRIVATE_KEY {{ "}}" }}
           path: packages
           lfs: true
 
