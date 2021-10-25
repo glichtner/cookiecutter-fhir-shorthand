@@ -5,9 +5,9 @@
 id: "{{cookiecutter.fhir_id}}"
 canonical: "{{cookiecutter.canonical_url}}"
 name: "{{cookiecutter.project_slug}}"
-status: draft
+status: "{{cookiecutter.status}}"
 version: "{{cookiecutter.version}}"
-fhirVersion: 4.0.1
+fhirVersion: "{{cookiecutter.fhir_version}}"
 copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:

@@ -1,0 +1,10 @@
+{
+  "project_slug": "ExampleIG",
+  "fhir_id": "fhir.example",
+  "canonical_url": "http://example.org",
+  "status": "draft",
+  "version": "0.1.0",
+  "fhir_version": "4.0.1",
+  "publisher_name":"Example Publisher",
+  "publisher_url": "http://example.org/example-publisher"
+}
